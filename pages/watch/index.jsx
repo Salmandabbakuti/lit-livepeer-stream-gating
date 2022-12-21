@@ -101,6 +101,22 @@ export default function WatchStream() {
 
       <div className={styles.pageContainer}>
         <h2>Watch Stream</h2>
+        <b>Notice:</b> You are required to have a{" "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://mumbai.polygonscan.com/address/0xB56946D84E4Dd277A8E575D5Dae551638010C6A8"
+        >
+          Color Token NFT(CLRT) {" "}
+        </a>
+        If stream owner created stream through this app. If you dont have NFT, Please mint one{" "}
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="http://color-marketplace.vercel.app/"
+        >
+          here
+        </a>
 
         <label className={styles.label} htmlFor="playbackId">Playback ID</label>
         <input

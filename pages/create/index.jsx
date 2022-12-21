@@ -178,6 +178,24 @@ export default function CreateStream() {
 
       <div className={styles.pageContainer}>
         <h2>Create Live Stream</h2>
+        <p>
+          <b>Notice:</b> Your stream viewers are required to have a{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://mumbai.polygonscan.com/address/0xB56946D84E4Dd277A8E575D5Dae551638010C6A8"
+          >
+            Color Token NFT(CLRT).{" "}
+          </a>
+          If they dont have one, Ask them to mint one{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="http://color-marketplace.vercel.app/"
+          >
+            here
+          </a>
+        </p>
         <input
           className={styles.input}
           name="streamName"
@@ -241,6 +259,6 @@ export default function CreateStream() {
         )}
         <PulseLoader loading={loading} color='#0070f3' speedMultiplier={1} />
       </div>
-    </div>
+    </div >
   );
 };
