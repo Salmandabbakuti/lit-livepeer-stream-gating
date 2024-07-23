@@ -31,7 +31,6 @@
 .createButton {
   background-color: #0070f3;
   width: 150px;
-  border: none;
   color: #fff;
   border: 1px solid #0070f3;
   margin: 5px;
@@ -44,7 +43,6 @@
 .watchButton {
   background-color: #fff;
   width: 150px;
-  border: none;
   color: #0070f3;
   border: 1px solid #0070f3;
   margin: 5px;
